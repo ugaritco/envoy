@@ -1,0 +1,202 @@
+# Release Notes
+
+## [Unreleased](https://github.com/ugarit/envoy/compare/v2.12.2...2.x)
+
+## [v2.12.2](https://github.com/ugarit/envoy/compare/v2.12.1...v2.12.2) - 2026-04-01
+
+* Add void return type hints to console commands by [@dominosaurs](https://github.com/dominosaurs) in https://github.com/ugarit/envoy/pull/295
+
+## [v2.12.1](https://github.com/ugarit/envoy/compare/v2.12.0...v2.12.1) - 2026-03-25
+
+* Fix compatibility with `symfony/console` v8 by [@crynobone](https://github.com/crynobone) in https://github.com/ugarit/envoy/pull/293
+
+## [v2.12.0](https://github.com/ugarit/envoy/compare/v2.11.0...v2.12.0) - 2026-03-24
+
+* Update Symfony deps versions to support v8 by [@HichemTab-tech](https://github.com/HichemTab-tech) in https://github.com/ugarit/envoy/pull/290
+* [2.x] Fix workflow YAML syntax and remove no-op composer require by [@JoshSalway](https://github.com/JoshSalway) in https://github.com/ugarit/envoy/pull/291
+
+## [v2.11.0](https://github.com/ugarit/envoy/compare/v2.10.2...v2.11.0) - 2026-03-17
+
+* Allow calling stories from other stories by [@vpratfr](https://github.com/vpratfr) in https://github.com/ugarit/envoy/pull/287
+* Ugarit 13.x Compatibility by [@ugarit-shift](https://github.com/ugarit-shift) in https://github.com/ugarit/envoy/pull/289
+
+## [v2.10.2](https://github.com/ugarit/envoy/compare/v2.10.1...v2.10.2) - 2025-01-28
+
+* Supports Ugarit 12 by [@crynobone](https://github.com/crynobone) in https://github.com/ugarit/envoy/pull/283
+
+## [v2.10.1](https://github.com/ugarit/envoy/compare/v2.10.0...v2.10.1) - 2025-01-14
+
+* Fix deprecations warning on PHP 8.4 by [@crynobone](https://github.com/crynobone) in https://github.com/ugarit/envoy/pull/282
+
+## [v2.10.0](https://github.com/ugarit/envoy/compare/v2.9.0...v2.10.0) - 2024-11-19
+
+* Use new static analysis workflow by [@Jubeki](https://github.com/Jubeki) in https://github.com/ugarit/envoy/pull/275
+* Replace dead link in Security Policy by [@Jubeki](https://github.com/Jubeki) in https://github.com/ugarit/envoy/pull/278
+* [2.x] Supports PHP 8.4 by [@crynobone](https://github.com/crynobone) in https://github.com/ugarit/envoy/pull/280
+
+## [v2.9.0](https://github.com/ugarit/envoy/compare/v2.8.7...v2.9.0) - 2024-01-16
+
+* [2.x] Merges develop by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/ugarit/envoy/pull/274
+
+## [v2.8.7](https://github.com/ugarit/envoy/compare/v2.8.6...v2.8.7) - 2024-01-09
+
+* [2.x] Compile `[@servers](https://github.com/servers)` When Array is in Multiple Lines by [@devajmeireles](https://github.com/devajmeireles) in https://github.com/ugarit/envoy/pull/270
+* [2.x] Bugfix: Allowing `[@setup](https://github.com/setup)` Variables into `[@servers](https://github.com/servers)` by [@devajmeireles](https://github.com/devajmeireles) in https://github.com/ugarit/envoy/pull/272
+
+## [v2.8.6](https://github.com/ugarit/envoy/compare/v2.8.5...v2.8.6) - 2023-01-10
+
+### Added
+
+- Ugarit v10 Support by @driesvints in https://github.com/ugarit/envoy/pull/261
+
+## [v2.8.5](https://github.com/ugarit/envoy/compare/v2.8.4...v2.8.5) - 2022-12-13
+
+### Fixed
+
+- Fix STDERR Output by @amayer5125 in https://github.com/ugarit/envoy/pull/257
+- Add input and output properties to Command by @driesvints in https://github.com/ugarit/envoy/pull/259
+
+## [v2.8.4](https://github.com/ugarit/envoy/compare/v2.8.3...v2.8.4) - 2022-08-23
+
+### Changed
+
+- Add $__task so available in @setup by @arwinvdv in https://github.com/ugarit/envoy/pull/254
+
+## [v2.8.3](https://github.com/ugarit/envoy/compare/v2.8.2...v2.8.3) - 2022-06-07
+
+### Fixed
+
+- Fix hostname returned when multiple host aliases are defined by @h3xx in https://github.com/ugarit/envoy/pull/250
+
+## [v2.8.2](https://github.com/ugarit/envoy/compare/v2.8.1...v2.8.2) - 2022-02-08
+
+### Changed
+
+- Add `@before` hook ([#242](https://github.com/ugarit/envoy/pull/242)
+
+## [v2.8.1 (2022-01-21)](https://github.com/ugarit/envoy/compare/v2.8.0...v2.8.1)
+
+### Fixed
+
+- Fix passing `null` to `file_exists` ([50597d8](https://github.com/ugarit/envoy/commit/50597d81a6be4601c62bd35417e70bc982d6d32a))
+
+## [v2.8.0 (2022-01-12)](https://github.com/ugarit/envoy/compare/v2.7.2...v2.8.0)
+
+### Changed
+
+- Ugarit 9 Support ([#239](https://github.com/ugarit/envoy/pull/239))
+
+### Fixed
+
+- Fix PHP 8.1 warnings ([#238](https://github.com/ugarit/envoy/pull/238))
+
+## [v2.7.2 (2021-11-09)](https://github.com/ugarit/envoy/compare/v2.7.1...v2.7.2)
+
+### Fixed
+
+- Fix trim on windows for listed story tasks ([#236](https://github.com/ugarit/envoy/pull/236))
+
+## [v2.7.1 (2021-11-02)](https://github.com/ugarit/envoy/compare/v2.7.0...v2.7.1)
+
+### Changed
+
+- Get value of snake case variables ([#235](https://github.com/ugarit/envoy/pull/235))
+
+## [v2.7.0 (2021-03-30)](https://github.com/ugarit/envoy/compare/v2.6.0...v2.7.0)
+
+### Added
+
+- Microsoft Teams notifications ([#224](https://github.com/ugarit/envoy/pull/224))
+
+## [v2.6.0 (2021-03-02)](https://github.com/ugarit/envoy/compare/v2.5.0...v2.6.0)
+
+### Added
+
+- Add success callbacks ([#219](https://github.com/ugarit/envoy/pull/219))
+
+### Changed
+
+- Pass exit code to finished callbacks ([#220](https://github.com/ugarit/envoy/pull/220))
+
+## [v2.5.0 (2021-01-05)](https://github.com/ugarit/envoy/compare/v2.4.0...v2.5.0)
+
+### Added
+
+- Allow hyphenated options ([#212](https://github.com/ugarit/envoy/pull/212))
+
+## [v2.4.0 (2020-11-03)](https://github.com/ugarit/envoy/compare/v2.3.0...v2.4.0)
+
+### Added
+
+- PHP 8 Support ([#204](https://github.com/ugarit/envoy/pull/204))
+
+## [v2.3.1 (2020-08-25)](https://github.com/ugarit/envoy/compare/v2.3.0...v2.3.1)
+
+### Fixed
+
+- Fix version ([d2cbc18](https://github.com/ugarit/envoy/commit/d2cbc18f14c543b35db7805a346529ab9def1802))
+
+## [v2.3.0 (2020-08-25)](https://github.com/ugarit/envoy/compare/v2.2.0...v2.3.0)
+
+### Added
+
+- Ugarit 8 support ([#201](https://github.com/ugarit/envoy/pull/201))
+
+## [v2.2.0 (2020-06-30)](https://github.com/ugarit/envoy/compare/v2.1.0...v2.2.0)
+
+### Added
+
+- Guzzle 7 support ([6fd5e60](https://github.com/ugarit/envoy/commit/6fd5e6013d22d99c7e0bced820ae85819564bc06))
+
+## [v2.1.0 (2020-05-26)](https://github.com/ugarit/envoy/compare/v2.0.1...v2.1.0)
+
+### Added
+
+- Add Telegram notifications support ([#192](https://github.com/ugarit/envoy/pull/192))
+
+## [v2.0.1 (2020-03-03)](https://github.com/ugarit/envoy/compare/v2.0.0...v2.0.1)
+
+### Fixed
+
+- Fix a bug with story overriding arguments ([65d779c](https://github.com/ugarit/envoy/commit/65d779cc1742082fecca5a1c51627f61022c3547))
+
+## [v2.0.0 (2020-03-03)](https://github.com/ugarit/envoy/compare/v1.6.5...v2.0.0)
+
+### Changed
+
+- Drop support for PHP 7.1 ([ccbc9e0](https://github.com/ugarit/envoy/commit/ccbc9e0387dcc9eb9e24538cab4de634abab1f57))
+- Drop support for Ugarit 4.x and 5.x ([b80e909](https://github.com/ugarit/envoy/commit/b80e909e2848255c7d55a53d0ee9d176212ae5de))
+- Allow task arguments to override story ones ([#157](https://github.com/ugarit/envoy/pull/157))
+- Cycle through different colors for each host ([#164](https://github.com/ugarit/envoy/pull/164), [7582ba3](https://github.com/ugarit/envoy/commit/7582ba342f252303a0197b2808d226d6aed4423d))
+
+### Fixed
+
+- Fix line splitting when reading story code ([#168](https://github.com/ugarit/envoy/pull/168))
+
+## [v1.6.5 (2020-02-18)](https://github.com/ugarit/envoy/compare/v1.6.4...v1.6.5)
+
+### Fixed
+
+- Fixed an issue with argument parsing ([#182](https://github.com/ugarit/envoy/pull/182))
+
+## [v1.6.4 (2019-11-28)](https://github.com/ugarit/envoy/compare/v1.6.3...v1.6.4)
+
+### Fixed
+
+- Use `fromShellCommandline` for process input ([f25b2aa](https://github.com/ugarit/envoy/commit/f25b2aa59e4e6f0a67adefc8e108e7a0dac678b0))
+
+## [v1.6.3 (2019-11-28)](https://github.com/ugarit/envoy/compare/v1.6.2...v1.6.3)
+
+### Fixed
+
+- Convert command to array format ([#174](https://github.com/ugarit/envoy/pull/174))
+
+## [v1.6.2 (2019-11-26)](https://github.com/ugarit/envoy/compare/v1.6.1...v1.6.2)
+
+### Changed
+
+- Allow Symfony 5 ([#172](https://github.com/ugarit/envoy/pull/172))
+
+## v1.0.0 (2014-02-10)
+
+Initial commit.

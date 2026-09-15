@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+if (file_exists(__DIR__.'/../vendor/autoload.php')) {
+    require __DIR__.'/../vendor/autoload.php';
+} else {
+    require __DIR__.'/../../../autoload.php';
+}
+
+$app = new Symfony\Component\Console\Application('Ugarit Envoy', '2.12.2');
+
+$addCommandMethodName = method_exists($app, 'addCommand') ? 'addCommand' : 'add';
+
+$app->{$addCommandMethodName}(new Ugarit\Envoy\Console\RunCommand);
+$app->{$addCommandMethodName}(new Ugarit\Envoy\Console\SshCommand);
+$app->{$addCommandMethodName}(new Ugarit\Envoy\Console\InitCommand);
+$app->{$addCommandMethodName}(new Ugarit\Envoy\Console\TasksCommand);
+
+$app->run();
